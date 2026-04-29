@@ -1,0 +1,41 @@
+[
+    {
+        "timestamp": "2025-12-30T16:20:57.855259",
+        "platform": "GB10",
+        "model": "gemma3:4b",
+        "test_case": "Short QA",
+        "metrics": {
+            "total_duration_sec": 0.780106617,
+            "load_duration_sec": 0.222159203,
+            "tokens_per_second": 64.7,
+            "eval_count": 34,
+            "prompt_eval_count": 19
+        }
+    },
+    {
+        "timestamp": "2025-12-30T16:21:02.112426",
+        "platform": "GB10",
+        "model": "gemma3:4b",
+        "test_case": "Creative Writing",
+        "metrics": {
+            "total_duration_sec": 4.253011953,
+            "load_duration_sec": 0.161934245,
+            "tokens_per_second": 66.45,
+            "eval_count": 264,
+            "prompt_eval_count": 25
+        }
+    },
+    {
+        "timestamp": "2025-12-30T16:21:23.608617",
+        "platform": "GB10",
+        "model": "gemma3:4b",
+        "test_case": "Code Gen",
+        "metrics": {
+            "total_duration_sec": 21.488601282,
+            "load_duration_sec": 0.148578447,
+            "tokens_per_second": 64.39,
+            "eval_count": 1341,
+            "prompt_eval_count": 20
+        }
+    }
+]

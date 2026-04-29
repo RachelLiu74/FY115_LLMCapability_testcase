@@ -1,0 +1,41 @@
+[
+    {
+        "timestamp": "2026-01-02T14:17:26.272450",
+        "platform": "GTX_1080Ti",
+        "model": "gpt-oss:20b",
+        "test_case": "Short QA",
+        "metrics": {
+            "total_duration_sec": 18.7021642,
+            "load_duration_sec": 7.6960929,
+            "tokens_per_second": 11.48,
+            "eval_count": 116,
+            "prompt_eval_count": 77
+        }
+    },
+    {
+        "timestamp": "2026-01-02T14:21:57.020718",
+        "platform": "GTX_1080Ti",
+        "model": "gpt-oss:20b",
+        "test_case": "Creative Writing",
+        "metrics": {
+            "total_duration_sec": 270.7258637,
+            "load_duration_sec": 0.2947676,
+            "tokens_per_second": 8.44,
+            "eval_count": 2279,
+            "prompt_eval_count": 80
+        }
+    },
+    {
+        "timestamp": "2026-01-02T14:25:32.146630",
+        "platform": "GTX_1080Ti",
+        "model": "gpt-oss:20b",
+        "test_case": "Code Gen",
+        "metrics": {
+            "total_duration_sec": 215.1026548,
+            "load_duration_sec": 0.2885259,
+            "tokens_per_second": 8.66,
+            "eval_count": 1854,
+            "prompt_eval_count": 79
+        }
+    }
+]
