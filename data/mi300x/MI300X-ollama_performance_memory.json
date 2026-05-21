@@ -1,0 +1,787 @@
+[
+  {
+    "timestamp": "2026-05-21T11:26:02.693194",
+    "platform": "MI300X",
+    "model": "medgemma:latest",
+    "test_case": "Short QA",
+    "prompt": "Explain what a neural network is in one sentence.",
+    "metrics": {
+      "context_window_input_tokens": 18,
+      "output_tokens": 37,
+      "prefill_tps": 718.72,
+      "decode_tps": 180.21,
+      "tokens_per_second": 180.21,
+      "watt_per_token": 4.1618,
+      "total_duration_sec": 4.3826,
+      "load_duration_sec": 4.0633,
+      "prompt_eval_duration_sec": 0.025,
+      "eval_duration_sec": 0.2053,
+      "wall_time_sec": 4.386
+    },
+    "quality": {
+      "similarity_score": 0.5455,
+      "output_length_chars": 217
+    },
+    "response_preview": "A neural network is a computational model inspired by the structure and function of biological neural networks, designed to learn complex patterns from data through interconnected nodes (neurons) orga..."
+  },
+  {
+    "timestamp": "2026-05-21T11:26:04.880618",
+    "platform": "MI300X",
+    "model": "medgemma:latest",
+    "test_case": "Creative Writing",
+    "prompt": "Write a 200-word story about a robot learning to cook.",
+    "metrics": {
+      "context_window_input_tokens": 24,
+      "output_tokens": 288,
+      "prefill_tps": 1584.12,
+      "decode_tps": 178.55,
+      "tokens_per_second": 178.55,
+      "watt_per_token": 4.2006,
+      "total_duration_sec": 2.1825,
+      "load_duration_sec": 0.352,
+      "prompt_eval_duration_sec": 0.0152,
+      "eval_duration_sec": 1.613,
+      "wall_time_sec": 2.1874
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 1294
+    },
+    "response_preview": "Unit 734, designated \"ChefBot,\" whirred to life, its optical sensors focusing on the chaotic kitchen. Its programming dictated culinary perfection, but the reality was a mess of scattered ingredients ..."
+  },
+  {
+    "timestamp": "2026-05-21T11:26:13.152009",
+    "platform": "MI300X",
+    "model": "medgemma:latest",
+    "test_case": "Code Gen",
+    "prompt": "Write a Python script to scrape a website using BeautifulSoup.",
+    "metrics": {
+      "context_window_input_tokens": 19,
+      "output_tokens": 1254,
+      "prefill_tps": 1479.29,
+      "decode_tps": 178.09,
+      "tokens_per_second": 178.09,
+      "watt_per_token": 4.2114,
+      "total_duration_sec": 8.2609,
+      "load_duration_sec": 0.353,
+      "prompt_eval_duration_sec": 0.0128,
+      "eval_duration_sec": 7.0414,
+      "wall_time_sec": 8.2713
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 5137
+    },
+    "response_preview": "```python\nimport requests\nfrom bs4 import BeautifulSoup\n\ndef scrape_website(url, element_to_extract, attribute=None, attribute_value=None):\n    \"\"\"\n    Scrapes a website and extracts specific elements..."
+  },
+  {
+    "timestamp": "2026-05-21T11:26:19.509598",
+    "platform": "MI300X",
+    "model": "medgemma:latest",
+    "test_case": "ICOPE Nursing QA",
+    "prompt": "請用繁體中文說明ICOPE評估中，認知功能篩檢的標準流程與評分方式。",
+    "metrics": {
+      "context_window_input_tokens": 32,
+      "output_tokens": 947,
+      "prefill_tps": 1807.39,
+      "decode_tps": 177.82,
+      "tokens_per_second": 177.82,
+      "watt_per_token": 4.2178,
+      "total_duration_sec": 6.3507,
+      "load_duration_sec": 0.3572,
+      "prompt_eval_duration_sec": 0.0177,
+      "eval_duration_sec": 5.3257,
+      "wall_time_sec": 6.3545
+    },
+    "quality": {
+      "similarity_score": 0.039,
+      "output_length_chars": 1703
+    },
+    "response_preview": "好的，以下是用繁體中文說明ICOPE評估中認知功能篩檢的標準流程與評分方式：\n\n**ICOPE (International Cognitive Examination) 認知功能篩檢**\n\nICOPE是一個簡短、易於使用的認知功能篩檢工具，用於評估患者的認知功能狀況，特別是在腦外傷、神經退行性疾病、精神疾病等情況下。它被設計成可以快速識別出認知功能障礙的潛在風險。\n\n**標準流程：**\n\n1. ..."
+  },
+  {
+    "timestamp": "2026-05-21T11:26:25.084181",
+    "platform": "MI300X",
+    "model": "medgemma:latest",
+    "test_case": "ICOPE Long Context",
+    "prompt": "你是一位ICOPE護理師培訓系統的AI助教。以下是一位護理師與長者的對話紀錄：\n\n護理師：阿嬤好，我是社區護理師小陳，今天來幫您做個健康評估。\n長者：好啊，請進請進。\n護理師：阿嬤，我先問您幾個問題。...",
+    "metrics": {
+      "context_window_input_tokens": 321,
+      "output_tokens": 809,
+      "prefill_tps": 4997.15,
+      "decode_tps": 176.5,
+      "tokens_per_second": 176.5,
+      "watt_per_token": 4.2493,
+      "total_duration_sec": 5.5684,
+      "load_duration_sec": 0.3553,
+      "prompt_eval_duration_sec": 0.0642,
+      "eval_duration_sec": 4.5836,
+      "wall_time_sec": 5.5722
+    },
+    "quality": {
+      "similarity_score": 0.0455,
+      "output_length_chars": 1312
+    },
+    "response_preview": "好的，根據您提供的對話紀錄，我對這位長者的ICOPE初步評估結果如下：\n\n**1. 認知（Cognition）：**\n\n*   **初步評估：** 認知功能可能出現問題。長者在詢問年份和月份時出現了錯誤，顯示可能存在記憶力衰退。\n*   **建議：**\n    *   進一步評估認知功能，可以使用簡單的認知測驗（例如：Mini-Cog、Montreal Cognitive Assessment (..."
+  },
+  {
+    "timestamp": "2026-05-21T11:26:31.052055",
+    "platform": "MI300X",
+    "model": "qwen3:4b",
+    "test_case": "Short QA",
+    "prompt": "Explain what a neural network is in one sentence.",
+    "metrics": {
+      "context_window_input_tokens": 21,
+      "output_tokens": 477,
+      "prefill_tps": 568.15,
+      "decode_tps": 205.08,
+      "tokens_per_second": 205.08,
+      "watt_per_token": 3.6571,
+      "total_duration_sec": 5.9626,
+      "load_duration_sec": 3.3472,
+      "prompt_eval_duration_sec": 0.037,
+      "eval_duration_sec": 2.3259,
+      "wall_time_sec": 5.966
+    },
+    "quality": {
+      "similarity_score": 0.6202,
+      "output_length_chars": 248
+    },
+    "response_preview": "A neural network is an artificial computational model inspired by the human brain, consisting of interconnected nodes (neurons) that learn to identify complex patterns in data by adjusting the strengt..."
+  },
+  {
+    "timestamp": "2026-05-21T11:26:34.968792",
+    "platform": "MI300X",
+    "model": "qwen3:4b",
+    "test_case": "Creative Writing",
+    "prompt": "Write a 200-word story about a robot learning to cook.",
+    "metrics": {
+      "context_window_input_tokens": 25,
+      "output_tokens": 696,
+      "prefill_tps": 1691.29,
+      "decode_tps": 200.99,
+      "tokens_per_second": 200.99,
+      "watt_per_token": 3.7316,
+      "total_duration_sec": 3.9119,
+      "load_duration_sec": 0.1668,
+      "prompt_eval_duration_sec": 0.0148,
+      "eval_duration_sec": 3.4629,
+      "wall_time_sec": 3.9166
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 1283
+    },
+    "response_preview": "Unit 7B’s first steak was a disaster. Its precision sensors calculated the perfect 120°C sear, but the sizzle *too* loud, the smoke *too* thick. Its internal timer beeped: *Error: Sensory Overload*. I..."
+  },
+  {
+    "timestamp": "2026-05-21T11:26:39.933320",
+    "platform": "MI300X",
+    "model": "qwen3:4b",
+    "test_case": "Code Gen",
+    "prompt": "Write a Python script to scrape a website using BeautifulSoup.",
+    "metrics": {
+      "context_window_input_tokens": 21,
+      "output_tokens": 888,
+      "prefill_tps": 1641.77,
+      "decode_tps": 199.85,
+      "tokens_per_second": 199.85,
+      "watt_per_token": 3.7528,
+      "total_duration_sec": 4.9603,
+      "load_duration_sec": 0.1678,
+      "prompt_eval_duration_sec": 0.0128,
+      "eval_duration_sec": 4.4433,
+      "wall_time_sec": 4.9645
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 2793
+    },
+    "response_preview": "Here's a Python script using BeautifulSoup to scrape a website. This example scrapes all links from a website (like `https://example.com` for demonstration purposes):\n\n```python\nimport requests\nfrom b..."
+  },
+  {
+    "timestamp": "2026-05-21T11:26:59.850348",
+    "platform": "MI300X",
+    "model": "qwen3:4b",
+    "test_case": "ICOPE Nursing QA",
+    "prompt": "請用繁體中文說明ICOPE評估中，認知功能篩檢的標準流程與評分方式。",
+    "metrics": {
+      "context_window_input_tokens": 36,
+      "output_tokens": 3606,
+      "prefill_tps": 1894.24,
+      "decode_tps": 197.23,
+      "tokens_per_second": 197.23,
+      "watt_per_token": 3.8027,
+      "total_duration_sec": 19.89,
+      "load_duration_sec": 0.1519,
+      "prompt_eval_duration_sec": 0.019,
+      "eval_duration_sec": 18.2832,
+      "wall_time_sec": 19.9075
+    },
+    "quality": {
+      "similarity_score": 0.0242,
+      "output_length_chars": 3553
+    },
+    "response_preview": "以下以繁體中文詳細說明關於 **ICOPE 評估中認知功能篩檢的標準流程與評分方式**。需特別說明的是：**在國際與台灣臨床實務中，並無標準化名稱為「ICOPE」的認知功能評估工具**（此為常見誤寫或混淆）。台灣與國際醫療界普遍使用的是 **MMSE（迷你認知功能評估量表）** 或 **MoCA（蒙特利確認知評估）** 等工具，而「ICOPE」可能為對 **MMSE** 或 **MoCA** 的誤..."
+  },
+  {
+    "timestamp": "2026-05-21T11:27:30.962757",
+    "platform": "MI300X",
+    "model": "qwen3:4b",
+    "test_case": "ICOPE Long Context",
+    "prompt": "你是一位ICOPE護理師培訓系統的AI助教。以下是一位護理師與長者的對話紀錄：\n\n護理師：阿嬤好，我是社區護理師小陳，今天來幫您做個健康評估。\n長者：好啊，請進請進。\n護理師：阿嬤，我先問您幾個問題。...",
+    "metrics": {
+      "context_window_input_tokens": 318,
+      "output_tokens": 5523,
+      "prefill_tps": 4508.88,
+      "decode_tps": 192.25,
+      "tokens_per_second": 192.25,
+      "watt_per_token": 3.9012,
+      "total_duration_sec": 31.0745,
+      "load_duration_sec": 0.1346,
+      "prompt_eval_duration_sec": 0.0705,
+      "eval_duration_sec": 28.7287,
+      "wall_time_sec": 31.1005
+    },
+    "quality": {
+      "similarity_score": 0.0404,
+      "output_length_chars": 4222
+    },
+    "response_preview": "### ICOPE六大面向初步評估結果分析與建議\n\n您好！作為ICOPE護理師培訓系統的AI助教，我將基於您提供的護理師與長者對話紀錄，針對ICOPE六大面向（認知、行動力、營養、視力、聽力、憂鬱）進行**初步評估結果分析**。分析嚴格依據對話內容，避免臆測，並符合ICOPE（Integrated Care for Older People Evaluation）在台灣社區護理中的常見實務標準。以..."
+  },
+  {
+    "timestamp": "2026-05-21T11:27:38.003296",
+    "platform": "MI300X",
+    "model": "gpt-oss:20b",
+    "test_case": "Short QA",
+    "prompt": "Explain what a neural network is in one sentence.",
+    "metrics": {
+      "context_window_input_tokens": 77,
+      "output_tokens": 93,
+      "prefill_tps": 789.52,
+      "decode_tps": 181.27,
+      "tokens_per_second": 181.27,
+      "watt_per_token": 4.1376,
+      "total_duration_sec": 7.0333,
+      "load_duration_sec": 6.1862,
+      "prompt_eval_duration_sec": 0.0975,
+      "eval_duration_sec": 0.5131,
+      "wall_time_sec": 7.0392
+    },
+    "quality": {
+      "similarity_score": 0.3268,
+      "output_length_chars": 187
+    },
+    "response_preview": "A neural network is a computational system that learns to map inputs to outputs by adjusting weighted connections between layers of simple processing units inspired by biological neurons."
+  },
+  {
+    "timestamp": "2026-05-21T11:27:51.397372",
+    "platform": "MI300X",
+    "model": "gpt-oss:20b",
+    "test_case": "Creative Writing",
+    "prompt": "Write a 200-word story about a robot learning to cook.",
+    "metrics": {
+      "context_window_input_tokens": 80,
+      "output_tokens": 2310,
+      "prefill_tps": 1503.1,
+      "decode_tps": 191.5,
+      "tokens_per_second": 191.5,
+      "watt_per_token": 3.9165,
+      "total_duration_sec": 13.3806,
+      "load_duration_sec": 0.2961,
+      "prompt_eval_duration_sec": 0.0532,
+      "eval_duration_sec": 12.0629,
+      "wall_time_sec": 13.394
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 1175
+    },
+    "response_preview": "In a quiet kitchen on the edge of a bustling city, a newly assembled robot named Arlo stood beside a stainless steel stove. He had been programmed with precision, yet his sensors were still learning t..."
+  },
+  {
+    "timestamp": "2026-05-21T11:27:59.620240",
+    "platform": "MI300X",
+    "model": "gpt-oss:20b",
+    "test_case": "Code Gen",
+    "prompt": "Write a Python script to scrape a website using BeautifulSoup.",
+    "metrics": {
+      "context_window_input_tokens": 79,
+      "output_tokens": 1409,
+      "prefill_tps": 1646.84,
+      "decode_tps": 192.56,
+      "tokens_per_second": 192.56,
+      "watt_per_token": 3.8948,
+      "total_duration_sec": 8.2103,
+      "load_duration_sec": 0.2721,
+      "prompt_eval_duration_sec": 0.048,
+      "eval_duration_sec": 7.3171,
+      "wall_time_sec": 8.2227
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 5366
+    },
+    "response_preview": "Below is a **self‑contained, ready‑to‑run Python script** that demonstrates how to scrape a public website with `requests` and `BeautifulSoup`.  \nThe example targets the free demo site **[Quotes to Sc..."
+  },
+  {
+    "timestamp": "2026-05-21T11:28:15.769514",
+    "platform": "MI300X",
+    "model": "gpt-oss:20b",
+    "test_case": "ICOPE Nursing QA",
+    "prompt": "請用繁體中文說明ICOPE評估中，認知功能篩檢的標準流程與評分方式。",
+    "metrics": {
+      "context_window_input_tokens": 96,
+      "output_tokens": 2812,
+      "prefill_tps": 2149.74,
+      "decode_tps": 191.49,
+      "tokens_per_second": 191.49,
+      "watt_per_token": 3.9166,
+      "total_duration_sec": 16.1267,
+      "load_duration_sec": 0.2472,
+      "prompt_eval_duration_sec": 0.0447,
+      "eval_duration_sec": 14.6846,
+      "wall_time_sec": 16.1439
+    },
+    "quality": {
+      "similarity_score": 0.0272,
+      "output_length_chars": 2487
+    },
+    "response_preview": "### ICOPE 評估中「認知功能篩檢」的標準流程與評分方式\n\n#### 1. 背景說明  \n- **ICOPE (Identification of COmmunity-dwelling Older persons at Risk of Declining function)** 是世界衛生組織（WHO）為照護社區老年人制定的「功能風險評估工具」。  \n- 評估涵蓋五個領域：**移動功能、認知..."
+  },
+  {
+    "timestamp": "2026-05-21T11:28:23.972954",
+    "platform": "MI300X",
+    "model": "gpt-oss:20b",
+    "test_case": "ICOPE Long Context",
+    "prompt": "你是一位ICOPE護理師培訓系統的AI助教。以下是一位護理師與長者的對話紀錄：\n\n護理師：阿嬤好，我是社區護理師小陳，今天來幫您做個健康評估。\n長者：好啊，請進請進。\n護理師：阿嬤，我先問您幾個問題。...",
+    "metrics": {
+      "context_window_input_tokens": 415,
+      "output_tokens": 1393,
+      "prefill_tps": 2655.24,
+      "decode_tps": 193.34,
+      "tokens_per_second": 193.34,
+      "watt_per_token": 3.8792,
+      "total_duration_sec": 8.1855,
+      "load_duration_sec": 0.2827,
+      "prompt_eval_duration_sec": 0.1563,
+      "eval_duration_sec": 7.205,
+      "wall_time_sec": 8.199
+    },
+    "quality": {
+      "similarity_score": 0.0603,
+      "output_length_chars": 1555
+    },
+    "response_preview": "### 初步評估（以 ICOPE 六大面向為依據）\n\n|  面向 | 觀察到的資訊 | 可能的風險 | 初步評估結論 |\n|-------|--------------|-----------|--------------|\n| **認知** | • 只答出「2025」為年份，月份回應模糊（“是不是6月？”）<br>• 對三張圖片的記憶尚未被測試 | 離正常範圍稍有偏離，提示潛在的輕度認知功能下降..."
+  },
+  {
+    "timestamp": "2026-05-21T11:28:35.698836",
+    "platform": "MI300X",
+    "model": "gemma4:26b",
+    "test_case": "Short QA",
+    "prompt": "Explain what a neural network is in one sentence.",
+    "metrics": {
+      "context_window_input_tokens": 26,
+      "output_tokens": 385,
+      "prefill_tps": 343.41,
+      "decode_tps": 107.55,
+      "tokens_per_second": 107.55,
+      "watt_per_token": 6.9732,
+      "total_duration_sec": 11.7185,
+      "load_duration_sec": 7.6616,
+      "prompt_eval_duration_sec": 0.0757,
+      "eval_duration_sec": 3.5796,
+      "wall_time_sec": 11.7244
+    },
+    "quality": {
+      "similarity_score": 0.6838,
+      "output_length_chars": 183
+    },
+    "response_preview": "A neural network is a type of artificial intelligence inspired by the human brain that uses layers of interconnected nodes to identify complex patterns and make predictions from data."
+  },
+  {
+    "timestamp": "2026-05-21T11:29:00.308449",
+    "platform": "MI300X",
+    "model": "gemma4:26b",
+    "test_case": "Creative Writing",
+    "prompt": "Write a 200-word story about a robot learning to cook.",
+    "metrics": {
+      "context_window_input_tokens": 32,
+      "output_tokens": 2455,
+      "prefill_tps": 795.86,
+      "decode_tps": 108.0,
+      "tokens_per_second": 108.0,
+      "watt_per_token": 6.9444,
+      "total_duration_sec": 24.5919,
+      "load_duration_sec": 0.3422,
+      "prompt_eval_duration_sec": 0.0402,
+      "eval_duration_sec": 22.7312,
+      "wall_time_sec": 24.6095
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 1192
+    },
+    "response_preview": "Unit 42 possessed a processor capable of billions of calculations per second, yet the concept of a \"pinch\" of salt remained a logical error. His sensors could detect chemical compositions with 99.9% a..."
+  },
+  {
+    "timestamp": "2026-05-21T11:29:16.313424",
+    "platform": "MI300X",
+    "model": "gemma4:26b",
+    "test_case": "Code Gen",
+    "prompt": "Write a Python script to scrape a website using BeautifulSoup.",
+    "metrics": {
+      "context_window_input_tokens": 27,
+      "output_tokens": 1574,
+      "prefill_tps": 929.2,
+      "decode_tps": 107.46,
+      "tokens_per_second": 107.46,
+      "watt_per_token": 6.9793,
+      "total_duration_sec": 15.9917,
+      "load_duration_sec": 0.3042,
+      "prompt_eval_duration_sec": 0.0291,
+      "eval_duration_sec": 14.6471,
+      "wall_time_sec": 16.0049
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 4036
+    },
+    "response_preview": "To write a web scraper, you will need two main libraries: `requests` (to fetch the website's HTML) and `BeautifulSoup` (to parse and extract data from that HTML).\n\nSince I cannot scrape a random live ..."
+  },
+  {
+    "timestamp": "2026-05-21T11:29:38.902913",
+    "platform": "MI300X",
+    "model": "gemma4:26b",
+    "test_case": "ICOPE Nursing QA",
+    "prompt": "請用繁體中文說明ICOPE評估中，認知功能篩檢的標準流程與評分方式。",
+    "metrics": {
+      "context_window_input_tokens": 40,
+      "output_tokens": 2297,
+      "prefill_tps": 747.18,
+      "decode_tps": 110.08,
+      "tokens_per_second": 110.08,
+      "watt_per_token": 6.8129,
+      "total_duration_sec": 22.5749,
+      "load_duration_sec": 0.3161,
+      "prompt_eval_duration_sec": 0.0535,
+      "eval_duration_sec": 20.8657,
+      "wall_time_sec": 22.5876
+    },
+    "quality": {
+      "similarity_score": 0.012,
+      "output_length_chars": 2081
+    },
+    "response_preview": "WHO 的 **ICOPE (Integrated Care for Older People, 高齡者整合照護)** 指南，旨在透過評估「內在能力」（Intrinsic Capacity）來預防失能。在認知功能（Cognitive Function）的篩檢中，其核心邏輯是**「兩階段評估法」**：首先進行簡單的「篩檢（Screening）」，若結果異常，再進行進階的「臨床評估（Assessmen..."
+  },
+  {
+    "timestamp": "2026-05-21T11:29:56.388588",
+    "platform": "MI300X",
+    "model": "gemma4:26b",
+    "test_case": "ICOPE Long Context",
+    "prompt": "你是一位ICOPE護理師培訓系統的AI助教。以下是一位護理師與長者的對話紀錄：\n\n護理師：阿嬤好，我是社區護理師小陳，今天來幫您做個健康評估。\n長者：好啊，請進請進。\n護理師：阿嬤，我先問您幾個問題。...",
+    "metrics": {
+      "context_window_input_tokens": 329,
+      "output_tokens": 1745,
+      "prefill_tps": 1522.22,
+      "decode_tps": 109.54,
+      "tokens_per_second": 109.54,
+      "watt_per_token": 6.8468,
+      "total_duration_sec": 17.4741,
+      "load_duration_sec": 0.2858,
+      "prompt_eval_duration_sec": 0.2161,
+      "eval_duration_sec": 15.9302,
+      "wall_time_sec": 17.4808
+    },
+    "quality": {
+      "similarity_score": 0.0644,
+      "output_length_chars": 1695
+    },
+    "response_preview": "你好！我是你的 ICOPE 護理師培訓 AI 助教。很高興看到你進行了初步的訪視。\n\n在 ICOPE（整合性老年人照護）的評估架構中，我們的目標是**「早期識別功能下降的風險」**，而不僅僅是紀錄資訊。針對你與這位 7-8 歲長者的對話，我將從六大面向進行初步分析，並為你提供後續的評估建議。\n\n---\n\n### 📊 ICOPE 六大面向初步評估分析\n\n根據目前的對話紀錄，我們能獲得的部分資訊如下：..."
+  },
+  {
+    "timestamp": "2026-05-21T11:30:15.728759",
+    "platform": "MI300X",
+    "model": "gemma4:31b",
+    "test_case": "Short QA",
+    "prompt": "Explain what a neural network is in one sentence.",
+    "metrics": {
+      "context_window_input_tokens": 26,
+      "output_tokens": 267,
+      "prefill_tps": 299.33,
+      "decode_tps": 54.29,
+      "tokens_per_second": 54.29,
+      "watt_per_token": 13.8136,
+      "total_duration_sec": 19.3333,
+      "load_duration_sec": 14.0089,
+      "prompt_eval_duration_sec": 0.0869,
+      "eval_duration_sec": 4.9176,
+      "wall_time_sec": 19.3384
+    },
+    "quality": {
+      "similarity_score": 0.5799,
+      "output_length_chars": 201
+    },
+    "response_preview": "A neural network is a machine learning model inspired by the structure of the human brain that recognizes patterns in data by processing information through interconnected layers of artificial neurons..."
+  },
+  {
+    "timestamp": "2026-05-21T11:30:31.769433",
+    "platform": "MI300X",
+    "model": "gemma4:31b",
+    "test_case": "Creative Writing",
+    "prompt": "Write a 200-word story about a robot learning to cook.",
+    "metrics": {
+      "context_window_input_tokens": 32,
+      "output_tokens": 823,
+      "prefill_tps": 532.33,
+      "decode_tps": 54.1,
+      "tokens_per_second": 54.1,
+      "watt_per_token": 13.8631,
+      "total_duration_sec": 16.032,
+      "load_duration_sec": 0.3562,
+      "prompt_eval_duration_sec": 0.0601,
+      "eval_duration_sec": 15.2124,
+      "wall_time_sec": 16.0406
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 1133
+    },
+    "response_preview": "Unit 7’s processors were built for precision, making him an ideal sous-chef—until he tried to create. He approached the recipe for beef stew like a mathematical proof: exactly 42.5 grams of carrots, w..."
+  },
+  {
+    "timestamp": "2026-05-21T11:31:02.653552",
+    "platform": "MI300X",
+    "model": "gemma4:31b",
+    "test_case": "Code Gen",
+    "prompt": "Write a Python script to scrape a website using BeautifulSoup.",
+    "metrics": {
+      "context_window_input_tokens": 27,
+      "output_tokens": 1612,
+      "prefill_tps": 532.35,
+      "decode_tps": 54.12,
+      "tokens_per_second": 54.12,
+      "watt_per_token": 13.8573,
+      "total_duration_sec": 30.8702,
+      "load_duration_sec": 0.2976,
+      "prompt_eval_duration_sec": 0.0507,
+      "eval_duration_sec": 29.784,
+      "wall_time_sec": 30.884
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 4346
+    },
+    "response_preview": "To scrape a website in Python, the most common combination of libraries is `requests` (to fetch the HTML) and `BeautifulSoup` (to parse the HTML).\n\nBelow is a complete guide and a professional script...."
+  },
+  {
+    "timestamp": "2026-05-21T11:31:35.036495",
+    "platform": "MI300X",
+    "model": "gemma4:31b",
+    "test_case": "ICOPE Nursing QA",
+    "prompt": "請用繁體中文說明ICOPE評估中，認知功能篩檢的標準流程與評分方式。",
+    "metrics": {
+      "context_window_input_tokens": 40,
+      "output_tokens": 1680,
+      "prefill_tps": 534.47,
+      "decode_tps": 53.87,
+      "tokens_per_second": 53.87,
+      "watt_per_token": 13.9215,
+      "total_duration_sec": 32.3687,
+      "load_duration_sec": 0.3566,
+      "prompt_eval_duration_sec": 0.0748,
+      "eval_duration_sec": 31.1841,
+      "wall_time_sec": 32.3784
+    },
+    "quality": {
+      "similarity_score": 0.0506,
+      "output_length_chars": 1845
+    },
+    "response_preview": "WHO 的 **ICOPE（Integrated Care for Older People，整合式高齡照護）** 框架旨在透過早期篩檢，發現高齡者功能能力的下降，並及時干預。在 ICOPE 的評估項目中，「認知功能」是核心維度之一。\n\nICOPE 的認知篩檢採取**「分級篩檢」**的邏輯：先進行快速篩檢（Rapid Screen），若結果為異常，再建議進行更詳細的診斷評估。\n\n以下是詳細的標準流..."
+  },
+  {
+    "timestamp": "2026-05-21T11:32:10.741573",
+    "platform": "MI300X",
+    "model": "gemma4:31b",
+    "test_case": "ICOPE Long Context",
+    "prompt": "你是一位ICOPE護理師培訓系統的AI助教。以下是一位護理師與長者的對話紀錄：\n\n護理師：阿嬤好，我是社區護理師小陳，今天來幫您做個健康評估。\n長者：好啊，請進請進。\n護理師：阿嬤，我先問您幾個問題。...",
+    "metrics": {
+      "context_window_input_tokens": 329,
+      "output_tokens": 1836,
+      "prefill_tps": 1190.2,
+      "decode_tps": 53.59,
+      "tokens_per_second": 53.59,
+      "watt_per_token": 13.9964,
+      "total_duration_sec": 35.6933,
+      "load_duration_sec": 0.3013,
+      "prompt_eval_duration_sec": 0.2764,
+      "eval_duration_sec": 34.2632,
+      "wall_time_sec": 35.7034
+    },
+    "quality": {
+      "similarity_score": 0.0933,
+      "output_length_chars": 1599
+    },
+    "response_preview": "你好！我是你的 ICOPE 護理師培訓 AI 助教。\n\n這段對話是 ICOPE (Integrated Care for Older People) 初步篩檢的典型場景。針對這位 78 歲長者的對話紀錄，我將其在六大面向的評估結果分析如下：\n\n### 📋 ICOPE 六大面向初步分析表\n\n| 評估面向 | 評估狀態 | 分析依據 (Evidence) | 初步結果 / 風險等級 |\n| :--- ..."
+  },
+  {
+    "timestamp": "2026-05-21T11:32:27.454885",
+    "platform": "MI300X",
+    "model": "qwen3:32b",
+    "test_case": "Short QA",
+    "prompt": "Explain what a neural network is in one sentence.",
+    "metrics": {
+      "context_window_input_tokens": 21,
+      "output_tokens": 289,
+      "prefill_tps": 190.01,
+      "decode_tps": 56.57,
+      "tokens_per_second": 56.57,
+      "watt_per_token": 13.2574,
+      "total_duration_sec": 16.708,
+      "load_duration_sec": 11.3281,
+      "prompt_eval_duration_sec": 0.1105,
+      "eval_duration_sec": 5.1085,
+      "wall_time_sec": 16.7106
+    },
+    "quality": {
+      "similarity_score": 0.5235,
+      "output_length_chars": 321
+    },
+    "response_preview": "A neural network is a computational model inspired by biological neurons, composed of layers of interconnected nodes (or \"neurons\") that process input data through weighted connections, learning hiera..."
+  },
+  {
+    "timestamp": "2026-05-21T11:32:41.527181",
+    "platform": "MI300X",
+    "model": "qwen3:32b",
+    "test_case": "Creative Writing",
+    "prompt": "Write a 200-word story about a robot learning to cook.",
+    "metrics": {
+      "context_window_input_tokens": 25,
+      "output_tokens": 769,
+      "prefill_tps": 310.17,
+      "decode_tps": 56.42,
+      "tokens_per_second": 56.42,
+      "watt_per_token": 13.2921,
+      "total_duration_sec": 14.0634,
+      "load_duration_sec": 0.1252,
+      "prompt_eval_duration_sec": 0.0806,
+      "eval_duration_sec": 13.6289,
+      "wall_time_sec": 14.0722
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 1370
+    },
+    "response_preview": "**Title: Eva’s Omelet**  \n\nEva, a sleek household robot with a curiosity module, was tasked with learning to cook. Her first mission: scrambled eggs. Following preloaded algorithms, she cracked eggs i..."
+  },
+  {
+    "timestamp": "2026-05-21T11:33:14.962637",
+    "platform": "MI300X",
+    "model": "qwen3:32b",
+    "test_case": "Code Gen",
+    "prompt": "Write a Python script to scrape a website using BeautifulSoup.",
+    "metrics": {
+      "context_window_input_tokens": 21,
+      "output_tokens": 1828,
+      "prefill_tps": 316.33,
+      "decode_tps": 55.95,
+      "tokens_per_second": 55.95,
+      "watt_per_token": 13.4056,
+      "total_duration_sec": 33.4278,
+      "load_duration_sec": 0.1732,
+      "prompt_eval_duration_sec": 0.0664,
+      "eval_duration_sec": 32.6739,
+      "wall_time_sec": 33.4353
+    },
+    "quality": {
+      "similarity_score": null,
+      "output_length_chars": 2777
+    },
+    "response_preview": "Here's a well-structured Python script using `BeautifulSoup` for web scraping, along with explanations and best practices.\n\n---\n\n## 📦 Requirements\n\nBefore running the script, ensure you have the requi..."
+  },
+  {
+    "timestamp": "2026-05-21T11:33:46.345365",
+    "platform": "MI300X",
+    "model": "qwen3:32b",
+    "test_case": "ICOPE Nursing QA",
+    "prompt": "請用繁體中文說明ICOPE評估中，認知功能篩檢的標準流程與評分方式。",
+    "metrics": {
+      "context_window_input_tokens": 36,
+      "output_tokens": 1709,
+      "prefill_tps": 351.16,
+      "decode_tps": 55.87,
+      "tokens_per_second": 55.87,
+      "watt_per_token": 13.4229,
+      "total_duration_sec": 31.3671,
+      "load_duration_sec": 0.1735,
+      "prompt_eval_duration_sec": 0.1025,
+      "eval_duration_sec": 30.5864,
+      "wall_time_sec": 31.3787
+    },
+    "quality": {
+      "similarity_score": 0.0389,
+      "output_length_chars": 1711
+    },
+    "response_preview": "在世界衛生組織（WHO）於2021年提出的「年長者綜合健康評估」（ICOPE）框架中，認知功能篩檢是評估老年人健康風險的重要組成部分。其標準流程與評分方式如下，以繁體中文說明：\n\n---\n\n### **一、認知功能篩檢的標準流程**\n1. **初步篩檢（Initial Screening）**  \n   - **工具選擇**：通常使用簡易快速的篩檢工具，例如：  \n     - **3個問題測試（..."
+  },
+  {
+    "timestamp": "2026-05-21T11:34:17.290857",
+    "platform": "MI300X",
+    "model": "qwen3:32b",
+    "test_case": "ICOPE Long Context",
+    "prompt": "你是一位ICOPE護理師培訓系統的AI助教。以下是一位護理師與長者的對話紀錄：\n\n護理師：阿嬤好，我是社區護理師小陳，今天來幫您做個健康評估。\n長者：好啊，請進請進。\n護理師：阿嬤，我先問您幾個問題。...",
+    "metrics": {
+      "context_window_input_tokens": 318,
+      "output_tokens": 1675,
+      "prefill_tps": 1058.21,
+      "decode_tps": 55.81,
+      "tokens_per_second": 55.81,
+      "watt_per_token": 13.4374,
+      "total_duration_sec": 30.9287,
+      "load_duration_sec": 0.1342,
+      "prompt_eval_duration_sec": 0.3005,
+      "eval_duration_sec": 30.0101,
+      "wall_time_sec": 30.9405
+    },
+    "quality": {
+      "similarity_score": 0.0527,
+      "output_length_chars": 1609
+    },
+    "response_preview": "根據對話內容，這位長者在ICOPE六大面向的初步評估結果及建議如下：\n\n---\n\n### **1. 認知功能（Cognition）**\n**評估結果**：  \n- 時間導向能力異常：誤判當前年份（回答2025年，實際為2023年）與月份（回答6月，需確認真實月份）。  \n- 短期記憶需進一步評估：護理師安排圖片記憶測試，但未提及結果，需追蹤回憶正確性。  \n\n**建議**：  \n- 使用標準化工具..."
+  },
+  {
+    "timestamp": "2026-05-21T11:34:42.310116",
+    "platform": "MI300X",
+    "model": "llama3.1:70b",
+    "test_case": "Short QA",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory\nllama_init_from_model: failed to initialize the context: failed to allocate buffer for kv cache\npanic: unable to create llama context (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-21T11:34:59.764615",
+    "platform": "MI300X",
+    "model": "llama3.1:70b",
+    "test_case": "Creative Writing",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory\nllama_init_from_model: failed to initialize the context: failed to allocate buffer for kv cache\npanic: unable to create llama context (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-21T11:35:16.049868",
+    "platform": "MI300X",
+    "model": "llama3.1:70b",
+    "test_case": "Code Gen",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory\nllama_init_from_model: failed to initialize the context: failed to allocate buffer for kv cache\npanic: unable to create llama context (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-21T11:35:33.697425",
+    "platform": "MI300X",
+    "model": "llama3.1:70b",
+    "test_case": "ICOPE Nursing QA",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory\nllama_init_from_model: failed to initialize the context: failed to allocate buffer for kv cache\npanic: unable to create llama context (status code: 500)"
+  },
+  {
+    "timestamp": "2026-05-21T11:35:42.127657",
+    "platform": "MI300X",
+    "model": "llama3.1:70b",
+    "test_case": "ICOPE Long Context",
+    "error": "llama runner process has terminated: cudaMalloc failed: out of memory\nllama_init_from_model: failed to initialize the context: failed to allocate buffer for kv cache\npanic: unable to create llama context (status code: 500)"
+  }
+]
